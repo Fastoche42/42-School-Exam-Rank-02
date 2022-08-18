@@ -19,9 +19,9 @@ int main(int argc, char **argv)
 					break;
 				printf("*");
 				num = num / i;
-				i = 2;
+				i = 1;
 			}
-			i++;
+			if (i > 2) i+=2; else i++;
 		}
 	}
 	printf("\n");
